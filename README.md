@@ -17,5 +17,6 @@ nesne yönelimli standart tasarım çözümleri*
     * Singleton Design Pattern
     * Factory Design Pattern
     * ProtoType Design Pattern
+    * Object Pool Design Pattern
     
 - Behavioral Design Patterns
