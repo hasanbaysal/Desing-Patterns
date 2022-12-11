@@ -14,5 +14,5 @@ nesne yönelimli standart tasarım çözümleri*
 
 ### Design Patterns
 - Creation Design Patterns
-    * Singletion Design Pattern
+    * Singleton Design Pattern
 - Behavioral Design Patterns
