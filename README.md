@@ -13,7 +13,7 @@ nesne yönelimli standart tasarım çözümleri*
 ------------------------------------------
 
 ### Design Patterns
-- Creation Design Patterns
+- Creational Design Patterns
     * Singleton Design Pattern
     * Factory Design Pattern
     * ProtoType Design Pattern
