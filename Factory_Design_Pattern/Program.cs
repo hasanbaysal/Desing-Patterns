@@ -1,4 +1,5 @@
 ﻿using Factory_Design_Pattern.Concreate_Factory;
+using Factory_Design_Pattern.Concreate_Product;
 
 namespace Factory_Design_Pattern
 {
@@ -23,10 +24,15 @@ namespace Factory_Design_Pattern
             //A ve B iki ayrı tür olduğu için ayrı fabrikalarda üretiliyor
             //
             AFactory aFactory = new AFactory();
+
             var aproduct = (AProduct)aFactory.CreateProduct(2000, "Kırmızı");
-            
+
+            Console.WriteLine(aproduct.Color + " " + aproduct.Price);
             
             BFactory bFactory = new BFactory();
+
+            var bproduct = (BProduct)bFactory.CreateProduct(3000,"Sarı");
+            Console.WriteLine(bproduct.Color + " " + bproduct.Price);
 
 
         }

@@ -10,7 +10,7 @@ namespace Factory_Design_Pattern
     {
         public AProduct(int price,string color):base(price,color)
         {
-
+            
         }
 
     }

@@ -8,13 +8,28 @@ namespace Factory_Design_Pattern
 {
     public abstract class Product
     {
+        private int _Price;
+        private string _Color;
         protected Product(int price, string color)
         {
-            Price = price;
-            Color = color;
+            _Price = price;
+            _Color = color;
         }
-        private int Price { get; set; }
-        private string Color { get; set; }
+       
+        public int Price
+        {
+            get
+            {
+                return _Price;
+            }
+        }
+        public string Color
+        {
+            get
+            {
+                return _Color;
+            }
+        }
 
     }
 }
