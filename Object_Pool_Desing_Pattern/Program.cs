@@ -7,7 +7,7 @@
 
             Connection c1 = new Connection();
             c1.Open();
-            c1.Execute("c1 select ......");
+            c1.Execute("select ......");
             c1.Close();
 
             Thread.Sleep(1000);
@@ -17,7 +17,7 @@
 
             Connection c2 = new Connection();
             c2.Open();
-            c2.Execute("c1 select ......");
+            c2.Execute("select ......");
             c2.Close();
 
         }
