@@ -10,6 +10,8 @@ nesne yönelimli standart tasarım çözümleri*
 - Pratik yapmak
 - Anti Patternler yerine bilinen mevcut patternleri  kullanmak
 
+------------------------------------------
+
 ### Design Patterns
 - Creation Design Patterns
     * Singletion Design Pattern
