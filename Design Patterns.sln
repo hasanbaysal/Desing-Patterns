@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32602.215
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton_Desing_Pattern", "Singleton_Desing_Pattern\Singleton_Desing_Pattern.csproj", "{9D0A6F06-BDC5-4924-8B07-6926904BA984}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton_Desing_Pattern", "Singleton_Desing_Pattern\Singleton_Desing_Pattern.csproj", "{9D0A6F06-BDC5-4924-8B07-6926904BA984}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factory_Design_Pattern", "Factory_Design_Pattern\Factory_Design_Pattern.csproj", "{90FF3BDD-C61C-4C17-ACFF-35BCE604D93E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Factory_Design_Pattern", "Factory_Design_Pattern\Factory_Design_Pattern.csproj", "{90FF3BDD-C61C-4C17-ACFF-35BCE604D93E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prototype_Design_Pattern", "Prototype_Design_Pattern\Prototype_Design_Pattern.csproj", "{0147212F-5E12-49F7-A27D-C9F2D169DA62}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prototype_Design_Pattern", "Prototype_Design_Pattern\Prototype_Design_Pattern.csproj", "{0147212F-5E12-49F7-A27D-C9F2D169DA62}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Object_Pool_Desing_Pattern", "Object_Pool_Desing_Pattern\Object_Pool_Desing_Pattern.csproj", "{CDD8E82B-64E1-4DC1-AF00-6EFB1600FEF6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Object_Pool_Desing_Pattern", "Object_Pool_Desing_Pattern\Object_Pool_Desing_Pattern.csproj", "{CDD8E82B-64E1-4DC1-AF00-6EFB1600FEF6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder_Design_Pattern", "Builder_Design_Pattern\Builder_Design_Pattern.csproj", "{D0521496-435C-4D78-96FC-4F93DA2FFA20}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{CDD8E82B-64E1-4DC1-AF00-6EFB1600FEF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CDD8E82B-64E1-4DC1-AF00-6EFB1600FEF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CDD8E82B-64E1-4DC1-AF00-6EFB1600FEF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0521496-435C-4D78-96FC-4F93DA2FFA20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0521496-435C-4D78-96FC-4F93DA2FFA20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0521496-435C-4D78-96FC-4F93DA2FFA20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0521496-435C-4D78-96FC-4F93DA2FFA20}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
