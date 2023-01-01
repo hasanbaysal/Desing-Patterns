@@ -8,17 +8,20 @@
             SoftwareDepartment softwareDepartment = new SoftwareDepartment();
             var iitr = softwareDepartment.GetIterator();
             PrintAllData(iitr);
-
+            Console.WriteLine();
+            SalesDepartment salesDepartment = new SalesDepartment();
+            var itr2 = salesDepartment.GetIterator();
+            PrintAllData(itr2);
         }
 
-        private static void PrintAllData(Iterator iitr)
+        private static void PrintAllData(Iterator itr)
         {
-            while (iitr.Next())
+            while (itr.Next())
             {
 
-                dynamic item = iitr.GetItem();
+                dynamic item = itr.GetItem();
 
-                Console.WriteLine(item.Name);
+                Console.WriteLine($"id: {item.Id}   name: {item.Name}   salary :{item.Salary}$ ");
             }
         }
     }
