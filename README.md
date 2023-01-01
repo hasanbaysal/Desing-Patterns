@@ -21,7 +21,7 @@ nesne yönelimli standart tasarım çözümleri*
     * Builder Design Pattern
     * Abstract Factory Design Pattern
 - Behavioral Design Patterns
-
+   * Iterator Design Pattern
 
 
 
